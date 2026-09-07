@@ -12,8 +12,8 @@ venv/
 .mypy_cache/
 .pytest_cache/
 
-# Local Claude Code workspace files
-CLAUDE.md
+# Agent workspace files. CLAUDE.md itself is tracked here on purpose:
+# it is this project's own orientation doc, not a local scratch file.
 .claude/
 
 # Logs
