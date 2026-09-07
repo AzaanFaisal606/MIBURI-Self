@@ -1,0 +1,23 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Everything this tree generates. `paths.py` routes outputs by type; none of it
+# belongs in the repo.
+output/
+
+# Environments / caches
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# Local Claude Code workspace files
+CLAUDE.md
+.claude/
+
+# Logs
+*.log
+
+# Local dev config: pins this machine's conda prefix.
+pyrightconfig.json
